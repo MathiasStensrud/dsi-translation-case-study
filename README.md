@@ -26,7 +26,7 @@ We created word clouds to get familiar with the data (see Figure 2a and 2b). Not
 
 ![Norwegian](NOP_wordcloud.png)
 
-**Figure 2b. Word cloud for French sentences**
+**Figure 2b. Word cloud for Norwegian sentences**
 
 ### Modeling
 
