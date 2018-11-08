@@ -64,6 +64,17 @@ We then ran a model on the French/English dataset. This model was run on a sampl
 
 **Table 1. Model parameters and loss metrics**
 
+## Correct!
+![](correct2.png)
+
+## Correct!
+![](correct1.png)
+
+## Incorrect!
+![](incorrect.png)
+## Corrected:
+![](corrected2.jpg)
+
 ## What did we learn?
 
 We learned that stopwords are not consistent across language, websites, packages, etc.
