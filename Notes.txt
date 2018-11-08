@@ -1,0 +1,52 @@
+FIRST RUN
+initial out of box model:
+30 epochs
+samples: 3100
+loss = .5734 (loss score for test)
+val_loss (value of cost function for cross validation data) [validation loss] .92
+
+SECOND RUN
+HOW WE RESPONDED:
+we increased number of samples (from ~3100 to 5642)
+doubled epochs to 60
+loss = .15
+val_los = .79
+
+THIRD RUN
+WHAT HAPPENED:
+loss = .05
+val_los = .7
+HOW WE RESPONDED:
+decreased epochs to 20 (50%), and increased batch size to 128 (doubled), we did this bc we had overfit the model
+
+FOURTH RUN
+
+
+plan: increase batch size it make it go faster (but will decrease accuracy); latent dimensions, epochs, optmizer
+
+val_los =
+latent_dim = L
+
+data_path = 'dsi-translation-case-study/nob.txt'
+one hot encoding = binary representation of categorical data
+
+tokens = characters
+english going in, norwegan coming out
+unique input tokens = unique enlish letters (75)
+unique output tokens = unique norwegian letters (85)
+max sequence length for inputs = total characters in a row cell (155)
+max sequence length for outputs = total characterst in row cell (140)
+
+encoder input data: vector for encoder input data
+x = 5642 (num rows)
+y (columns) = 155 (max length of given input)
+z = # unique tokens
+
+first sequence dealing with encoder (English) data
+
+WORD CLOUD:
+had to use norwegian stopwords (it's a set)
+
+
+At 62 epochs, we began to overfit our data
+TO DO:
